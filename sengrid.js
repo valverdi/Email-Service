@@ -11,10 +11,13 @@ const msg = {
 }
 try{
     await sgMail.send(msg)
-    console.log("message sent")
-}catch(error) {
+    console.log("mensaje enviado correctamente")
+
+}catch(error) 
+    {
     console.log(error)
-  }
+        
+    }
 }
 
 

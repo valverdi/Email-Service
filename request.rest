@@ -1,0 +1,12 @@
+GET http://localhost:3000/posts
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiVG9tYXMgVmFsdmVyZGkiLCJpYXQiOjE3MTg0MDUzMDJ9.DNq7biAJDnVW_5nmLR2SfrvjC8EYNm61FwWetq3Xzrc
+
+
+###
+
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "username":"Tomas Valverdi"
+}
